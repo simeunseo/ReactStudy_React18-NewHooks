@@ -1,6 +1,5 @@
 import { useCallback } from "react";
-import { createStore, useStore } from "../hooks/useStore";
-import Textbox from "./Textbox";
+import { useStore } from "../hooks/useStore";
 
 const Counter = ({ store }) => {
   const count = useStore(
